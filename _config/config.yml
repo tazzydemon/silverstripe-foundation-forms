@@ -17,7 +17,7 @@ Only:
 ---
 UserForm:
   extensions:
-    - FoundationUserFormExtension
+#    - FoundationUserFormExtension
 ---
 Only:
   moduleexists: comments

@@ -1,43 +1,15 @@
-silverstripe-zurb-foundation-forms
-==================================
+# SilverStripe Foundation Forms Module
 
-SilverStripe 3 Forms Compatible with Zurb Foundation Framework
+Provides enhanced support for using ZURB Foundation [Forms](http://foundation.zurb.com/docs/components/forms.html) in a SilverStripe 3.1.x project.
 
-**CAUTION UNSTABLE API UNDER ACTIVE DEVELOPMENT**
+## Installing
 
-Installing
-=================================
+- [Installing](docs/en/index.md)
 
-clone into your SilverStripe `root` directory
+## Requirements
 
-`git clone https://github.com/ryanwachtl/silverstripe-foundation-forms.git foundationforms`
+You are either using [SilverStripe Foundation Theme](https://github.com/rywa/silverstripe-foundation-theme) or have an existing theme or project that is using the [ZURB Foundation Framework for Sites](http://foundation.zurb.com/), [see suggested minimal custom build](docs/en/_images/foundation-custom-build.png).
 
-Installing
-=================================
+## SilverStripe UserForms
 
-`composer require rywa/silverstripe-foundation-forms dev-master`
-
-Requirements
-=================================
-
-SilverStripe Zurb Foundation Theme 
-
-https://github.com/ryanwachtl/silverstripe-foundation
-
-About Foundation
-=================================
-
-Foundation is the most advanced responsive front-end framework in the world. With Foundation you can quickly prototype and build sites or apps that work on any kind of device, with tons of included layout constructs (like a full responsive grid), elements and best practices.
-
-- [Homepage](http://foundation.zurb.com)
-- [Documentation](http://foundation.zurb.com/docs)
-- [Download](http://foundation.zurb.com/download.php)
-
-MIT Open Source License
-=================================
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+If you're using the UserForms module, please use the [1.0 branch](https://github.com/ryanwachtl/silverstripe-foundation-forms/tree/1.0) of SilverStripe Fondation Forms and version [2.0.10](https://github.com/silverstripe/silverstripe-userforms/tree/2.0.10) of the UserForms module.

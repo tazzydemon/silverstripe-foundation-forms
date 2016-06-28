@@ -1,0 +1,27 @@
+---
+Name: foundationforms
+After:
+  - 'framework/*'
+  - 'cms/*'
+  - 'userforms/*'
+---
+FieldList:
+  extensions:
+    - FoundationFieldListExtension
+Injector:
+  MemberLoginForm:
+    class: FoundationMemberLoginForm
+---
+Only:
+  moduleexists: userforms
+---
+UserForm:
+  extensions:
+    - FoundationUserFormExtension
+---
+Only:
+  moduleexists: comments
+---
+CommentingController:
+  extensions:
+    - FoundationCommentingController

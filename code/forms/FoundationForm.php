@@ -6,16 +6,16 @@
  * objects and their subclasses to support special features
  * of the framework.
  *
- * @author Ryan Wachtl <ryan@wachtl.us>
- * @package foundation_forms
+ * @author Ryan Wachtl
+ * @package foundationforms
  */
-class FoundationMemberLoginForm extends MemberLoginForm {
-	
+class FoundationForm extends Form {
+
 	/**
 	 * @var string The template that will render this form
 	 */
 	protected $template = "FoundationForm";
-	
+
 	/**
 	 * Includes the dependency if necessary, applies the Bootstrap templates,
 	 * and renders the form HTML output
@@ -24,10 +24,11 @@ class FoundationMemberLoginForm extends MemberLoginForm {
 	 */
 	public function forTemplate()
 	{
-		$this->transform(new FoundationFormTransformation());
-		$this->addExtraClass('custom');
-		
+		$this->Fields()->bootstrapify();
+		$this->Actions()->bootstrapify();
+		Requirements::css(FOUNDATIONFORMS_DIR . '/css/foundationforms.css');
+
 		return parent::forTemplate();
 	}
-	
+
 }
